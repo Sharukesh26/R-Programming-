@@ -1,0 +1,9 @@
+a <- c(1, 4, 7)
+b <- c(2, 5, 8)
+c <- c(3, 6, 9)
+matrix_combined <- cbind(a, b, c)
+print(matrix_combined)
+
+          Or
+M = matrix(c('a','b','c','d','e','f'),nrow = 2, ncol = 3)
+print(M)
