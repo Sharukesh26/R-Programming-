@@ -1,0 +1,4 @@
+current_date <- Sys.Date()
+print(current_date)
+is_date <- inherits(current_date, "Date")
+print(is_date)
