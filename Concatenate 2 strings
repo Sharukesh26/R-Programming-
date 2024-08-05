@@ -1,0 +1,7 @@
+string1 <- "Programiz"
+string2 <- "Pro"
+ 
+# using paste() to concatenate two strings
+result = paste(string1, string2)
+ 
+print(result)
