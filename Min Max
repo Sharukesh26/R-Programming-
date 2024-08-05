@@ -1,0 +1,13 @@
+vector <- c(3, 8, 1, 6, 2, 9, 4, 5, 7)
+max_val <- vector[1]  
+min_val <- vector[1] 
+for (num in vector) {
+  if (num > max_val) {
+    max_val <- num  
+  }
+  if (num < min_val) {
+    min_val <- num  
+  }
+}
+print(max_val)
+print(min_val)
