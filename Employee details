@@ -1,0 +1,8 @@
+employee_details <- data.frame(
+  EmployeeID = c(1, 2, 3, 4, 5),
+  Name = c("Alice Johnson", "Bob Smith", "Charlie Brown", "Diana Prince", "Evan Davis"),
+  Age = c(28, 34, 45, 29, 40),
+  Department = c("Engineering", "Marketing", "Sales", "HR", "Finance"),
+  Salary = c(70000, 80000, 75000, 68000, 90000))
+print(employee_details)
+print(employee_details$Salary)
